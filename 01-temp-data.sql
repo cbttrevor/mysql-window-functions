@@ -48,7 +48,7 @@ CREATE PROCEDURE cbtnuggets_window.addRaceData ()
             , ROW('Trevor', cbtnuggets_window.getRandomRaceTime(), 'Denver')
             , ROW('Trevor', cbtnuggets_window.getRandomRaceTime(), 'Denver')
             
-              ROW('Tracy', cbtnuggets_window.getRandomRaceTime(), 'Seattle')
+            , ROW('Tracy', cbtnuggets_window.getRandomRaceTime(), 'Seattle')
             , ROW('Tracy', cbtnuggets_window.getRandomRaceTime(), 'Seattle')
             , ROW('Tracy', cbtnuggets_window.getRandomRaceTime(), 'Seattle')
             , ROW('Tracy', cbtnuggets_window.getRandomRaceTime(), 'Seattle')
