@@ -26,6 +26,7 @@ SELECT cbtnuggets_window.getRandomRaceTime();
 
 CREATE PROCEDURE cbtnuggets_window.addRaceData ()
     BEGIN
+        DELETE FROM cbtnuggets_window.races;
         INSERT INTO cbtnuggets_window.races 
             (firstName, raceTimeSeconds, track)
             VALUES 
